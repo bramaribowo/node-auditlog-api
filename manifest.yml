@@ -1,0 +1,9 @@
+---
+applications:
+- name: node-audits-api
+  memory: 256M
+  instances: 1
+  command: npm install && npm start
+  services:
+  - cloudamq
+  - node-productsdb
