@@ -15,7 +15,6 @@ else{
   var mongourl = "mongodb://localhost/restful-prototype";
   var rabbiturl = "amqp://localhost";
 }
-
 // mongoose.connect('mongodb://localhost/restful-prototype');
 mongoose.connect(mongourl);
 
